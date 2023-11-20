@@ -1,46 +1,46 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="金の扉、銀の扉"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「金の扉、銀の扉」[l][r]
 
-メロスは激怒した。[l][r]
+目の前には金の扉と銀の扉の二つがある。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+片方の扉の奥には財宝があり、もう片方には恐ろしいモンスターがいる。[l][r]
 
-(中略)[l][r]
+扉は話すことができるが、どちらかの扉は必ず嘘をつき、もう片方は必ず本当のことを言う。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+金の扉はこう言った。「銀の扉は「私の奥には財宝があります」というであろう。」[l][r]
+あなたは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →金の扉を開ける [endlink][r]
+[link target=*tag_run] →銀の扉を開ける [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=takara.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+扉を開けるとそこには豪華な宝箱があった！[l][r]
+あなたはこれからの生活に困ることはないだろう。[r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=monstar.jpeg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+扉を開けるとそこには凶暴なモンスターがいた！[l][r]
+強力な相手と戦いたい冒険者であれば財宝よりも嬉しいのかもしれない。[r]
 
-【 GOOD END 】[l][cm]
+【 GOOD？ END 】[l][cm]
 
 [jump target=*start]
